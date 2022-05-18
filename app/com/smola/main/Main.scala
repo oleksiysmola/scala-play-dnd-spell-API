@@ -6,5 +6,5 @@ import com.smola.dice.DiceService
 object Main extends App {
   val diceToRoll = new Dice(1, 8)
   val diceRoller = new DiceService
-  println(diceRoller.RollSetOfDice(diceToRoll))
+  println(diceRoller.rollSetOfDice(diceToRoll))
 }
